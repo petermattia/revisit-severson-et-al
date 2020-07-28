@@ -2,12 +2,8 @@
 
 **NOTE:** Please contact Prof. Richard Braatz, braatz@mit.edu, for access to the code repository associated with the Nature Energy paper (available with an academic license). This respository is unrelated to the Nature Energy paper.
 
-This repository contains code for our work on early prediction of battery lifetime. Features are generated in MATLAB, while the machine learning is performed in python using numpy, scikit-learn, and matplotlib.
+This repository contains code for our work on "voltage arrays" and their dimensionality reduction.
 
 Our key scripts and functions are summarized here:
-
-MATLAB code:
-- featuregeneration.m: Generates large set of features extracted from battery dataset and exports them to csvs. This function loops through cycles 20 through 100 in increments of 10.
-
-Python code:
-- 
+- `featuregeneration.m`: MATLAB script that generates voltage arrays from the [battery dataset](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204) and exports them to csvs. 
+- `revisit-severson-et-al.ipynb`: Python notebook containing most of the analysis and figure generation.
