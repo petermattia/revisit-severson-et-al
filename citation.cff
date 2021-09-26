@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the original paper."
+authors:
+  - family-names: Attia
+    given-names: "Peter M."
+    orcid: https://orcid.org/0000-0003-4745-5726
+title: "Revisit Severson et al"
+version: 0.4.0
+doi: 10.5281/zenodo.5332872
+date-released: 2021-08-29
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Attia"
+    given-names: "Peter M."
+    orcid: "https://orcid.org/0000-0003-4745-5726"
+  - family-names: "Severson"
+    given-names: "Kristen A."
+    orcid: "https://orcid.org/0000-0002-0412-4217"
+  - family-names: "Witmer"
+    given-names: "Jeremy D."
+    orcid: "https://orcid.org/0000-0002-5935-7982"
+  doi: "10.1149/1945-7111/ac2704"
+  journal: "Journal of The Electrochemical Society"
+  month: 9
+  title: "Statistical Learning for Accurate and Interpretable Battery Lifetime Prediction"
+  issue: 090547
+  volume: 168
+  year: 2021
