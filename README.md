@@ -6,7 +6,7 @@ This repository contains code for our work entitled "[Statistical learning for a
 [![DOI](https://zenodo.org/badge/282795046.svg)](https://zenodo.org/badge/latestdoi/282795046)
 
 Our key scripts and functions are summarized here:
-- `featuregeneration.m`: MATLAB script that generates capacity arrays from the [battery dataset](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204) and exports them to csvs (stored in `/data`).
+- `generate_voltage_arrays.m`: MATLAB script that generates capacity arrays from the [battery dataset](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204) and exports them to csvs (stored in `/data`).
 - `revisit-severson-et-al.ipynb`: Python notebook containing most of the analysis and figure generation.
 - `image_annotated_heatmap.py`: Helper function from matplotlib (see docstring for source).
 - `lifetime_charging_time/lifetime_charging_time.ipynb`: Contains a mini analysis on cycle life vs. charging time.
